@@ -110,7 +110,7 @@ body{
 }
 
 .bg-img{
-  background: url("StQoF5M.jpg") no-repeat center center fixed;
+  background: url("./assets/portfolioImages/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

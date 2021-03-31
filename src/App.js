@@ -9,12 +9,15 @@ import Portfolio from "./pages/Portfolio";
 
 const App = () => {
   return (
+    <>
     <Router>
       <NavBar />
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />
     </Router>
+    <div className="bg-img" />
+    </>
   );
 }
 
