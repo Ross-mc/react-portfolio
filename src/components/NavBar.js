@@ -25,7 +25,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li className={"nav-link"}>
-              <Link to={cv} download target="_self">CV</Link>
+              <a href={cv}>CV</a>
             </li>
           </ul>
         </div>
