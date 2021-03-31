@@ -6,7 +6,7 @@ const PortfolioContainer = ({portfolioProjects}) => {
       {portfolioProjects.map((project, index) => (
         <PortfolioProject
           project={project}
-          key={project.projectTitles}
+          key={project.projectTitle}
           index={index}
         />
       ))}
