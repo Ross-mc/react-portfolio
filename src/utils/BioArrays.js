@@ -1,7 +1,7 @@
 const BioArrays = {
     HomeBio: [
         <p className="responsive-text">My name is <span className="blue-text">Ross McIntyre</span></p>,
-        <p className="responsive-text">web developer <span className="blue-text">/</span> software engineer`</p>
+        <p className="responsive-text">web developer <span className="blue-text">/</span> software engineer</p>
     ],
     PortfolioBio: [
         <p class="responsive-text">My name is <span class="blue-text">Ross McIntyre</span> and I am a web developer and software engineer at BJSS in Manchester</p>,

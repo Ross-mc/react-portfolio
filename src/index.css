@@ -163,6 +163,7 @@ body{
   min-height: 88vh;
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .inline-link:hover{
