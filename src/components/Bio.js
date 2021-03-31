@@ -1,11 +1,29 @@
 import React from "react";
 
-const Bio = ({bioElements}) => {
-    return (
-        <div className="bio">
-            {bioElements.map(bioEl => <p>{bioEl}</p>)}
-        </div>
-    )
+// HomeBio: [
+//     [
+//       { type: p, text: "My name is " },
+//       { type: span, text: "Ross McIntyre" },
+//     ],
+//     [
+//         {type: p, text: "web developer "},
+//         {type: span, text: "/"},
+//         {type: p, text: "software engineer"}
+//     ]
+//   ],
+
+{
+  /* <p className="responsive-text"
+            </p> */
 }
 
-export default Bio
+const Bio = ({ bioElements }) => {
+    console.log(bioElements)
+  return (
+    <div className="bio">
+        {bioElements}
+    </div>
+  );
+};
+
+export default Bio;

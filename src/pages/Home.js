@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
+import BioArrays from "../utils/BioArrays"
+import Bio from "../components/Bio"
 
 const Home = () => {
+  const [homeBio] = useState(BioArrays.HomeBio)
+
+
   return (
-    <h1>Home Page</h1>
+    <Bio bioElements={homeBio}/>
   )
 }
 
