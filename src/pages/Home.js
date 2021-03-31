@@ -7,7 +7,9 @@ const Home = () => {
 
 
   return (
-    <Bio bioElements={homeBio}/>
+    <section className="content">
+      <Bio bioElements={homeBio}/>
+    </section>
   )
 }
 
