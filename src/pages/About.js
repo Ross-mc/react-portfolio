@@ -10,8 +10,8 @@ const About = () => {
   return (
     <section className="content">
       <Bio bioElements={aboutBio}/>
-      <div className="lang-container">
-        {skills.map(skill => <FontAwesomeIcon icon={skill} />)}
+      <div className="lang-container" style={{textAlign: "center"}}>
+        {skills.map(skill => <FontAwesomeIcon icon={skill} style={{fontSize: 44, marginLeft: 8}} />)}
       </div>
     </section>
   )
