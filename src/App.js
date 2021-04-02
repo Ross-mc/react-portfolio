@@ -13,7 +13,6 @@ const App = () => {
   return (
     <>
       <div className="bg-img" />
-      
       <Router>
         <NavBar />
         <div className ="my-container">
