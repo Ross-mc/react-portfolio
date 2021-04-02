@@ -1,8 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
+import BioArrays from "../utils/BioArrays"
+import Bio from "../components/Bio"
 
 const About = () => {
+  const [aboutBio] = useState(BioArrays.AboutBio)
+
+
   return (
-    <h1>About Page</h1>
+    <section className="content">
+      <Bio bioElements={aboutBio}/>
+    </section>
   )
 }
 
