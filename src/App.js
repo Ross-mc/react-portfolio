@@ -13,15 +13,16 @@ const App = () => {
   return (
     <>
       <div className="bg-img" />
-      <div className ="my-container">
+      
       <Router>
         <NavBar />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <div className ="my-container">
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Footer />
+        </div>
       </Router>
-      <Footer />
-      </div>
     </>
   );
 }
