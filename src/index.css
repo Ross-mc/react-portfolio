@@ -19,7 +19,7 @@ body{
 }
 
 #fullNav{
-  display: none;
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -315,7 +315,7 @@ textarea{
 
 }
 
-@media(min-width: 1200px){
+/* @media(min-width: 1200px){
   .mobile-nav{
       display: none;
   }
@@ -324,7 +324,7 @@ textarea{
       display: flex;
   }
 
-}
+} */
 
 
 
