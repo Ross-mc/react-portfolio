@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 
 const App = () => {
-  const displayFullNav = useMediaQuery({query: '(min-width: 1200px)'});
+  const displayFullNav = useMediaQuery({query: '(min-width: 1000px)'});//returns true when the screen is bigger than 1000px
 
 
   return (

@@ -1,33 +1,44 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import cv from "../assets/cv/Ross-McIntyre-CV.pdf"
+import cv from "../assets/cv/Ross-McIntyre-CV.pdf";
 const NavBar = () => {
   const location = useLocation();
 
+  // <nav id="fullNav">
+  //               <div class="nav-list justify-content">
+  //                   <div class="nav-item"><a href="index.html" class="current">Home</a></div>
+  //                   <div class="nav-item"><a href="#top" class="navLink">About Me</a></div>
+  //               </div>
+  //               <div class="nav-list justify-content-end">
+  //                   <div class="nav-item"><a href="my-portfolio.html" class="navLink">Portfolio</a></div>
+  //                   <div class="nav-item"><a href="mailto:rossmci90@hotmail.co.uk" class="navLink">Contact</a></div>
+  //               </div>
+  //           </nav>
+
+
+  // className={location.pathname === "/" ? "current" : "navLink"}
   return (
-    <nav className="navbar navbar-expand py-3 navbar-dark bg-dark shadow-sm">
-      <div className="container">
-        <div id="navbarSupportedContent" className="collapse navbar-collapse">
-          <ul className="navbar-nav ml-auto">
-            <li className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-              <Link to="/" className="nav-link">
-                Home <span className="sr-only">(current)</span>
-              </Link>
-            </li>
-            <li className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-              <Link to="/About" className="nav-link">
-                About
-              </Link>
-            </li>
-            <li className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-              <Link to="/Portfolio" className="nav-link">
-                Portfolio
-              </Link>
-            </li>
-            <li className={"nav-link"}>
-              <a href={cv}>CV</a>
-            </li>
-          </ul>
+    <nav id="fullNav">
+      <div className="nav-list justify-content">
+        <div className="nav-item">
+          <Link to="/" className={location.pathname === "/" ? "current" : "navLink"}>
+            Home
+          </Link>
+        </div>
+        <div className="nav-item">
+          <Link to="/About" className={location.pathname === "/About" ? "current" : "navLink"}>
+            About
+          </Link>
+        </div>
+      </div>
+      <div className="nav-list justify-content-end">
+        <div className="nav-item">
+          <Link to="/Portfolio" className={location.pathname === "/Portfolio" ? "current" : "navLink"}>
+            Portfolio
+          </Link>
+        </div>
+        <div className="nav-item">
+          <a href={cv} className="navLink">CV</a>
         </div>
       </div>
     </nav>
@@ -35,11 +46,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
-
-
-
-
-
-

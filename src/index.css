@@ -25,6 +25,12 @@ body{
   left: 0;
   z-index: 1000;
   margin-top: 2vh;
+  width: 100%;
+}
+
+.justify-content-end{
+  position: fixed;
+  right: 2vw;
 }
 
 
@@ -33,8 +39,12 @@ body{
 }
 
 .current:hover{
-  color: #008B8B;
+  color: whitesmoke;
   text-decoration: none;
+}
+
+.navLink{
+  color: whitesmoke;
 }
 
 
@@ -161,6 +171,7 @@ body{
   width: 90%;
   margin: 40px auto;
   text-align: center;
+  margin-bottom: 75px;
 }
 
 .inline-link:hover{
@@ -183,6 +194,7 @@ body{
 .portfolio-section{
   width: 100vw;
   padding: 1.5vh 1vw;
+  min-height: 225px;
 }
 
 
@@ -197,10 +209,6 @@ body{
   color: rgba(35,40,45,1)
 }
 
-.port-img-container{
-  position: absolute;
-  margin-top: 50%;
-}
 
 .portfolio-header{
   font-size: 1.1rem;
@@ -326,10 +334,17 @@ textarea{
 
 } */
 
+.port-img-container{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 
 
-@media(min-width: 769px){
+@media(min-width: 767px){
 
   
 
@@ -357,7 +372,8 @@ textarea{
 
   .bio{
       width: 60%;
-      margin: 0 auto;
+      margin: 25px auto;
+
   }
 
   .portfolio-section{
@@ -366,12 +382,10 @@ textarea{
       margin-left: auto;
       margin-right: auto;
       border-radius: 10px;
+      min-height: 225px;
   }
 
-  .port-img-container{
-      margin-top: 0%;
-      position: relative;
-  }
+  
 
   .portfolio-desc{
       font-size: 1rem;
@@ -402,7 +416,4 @@ textarea{
       padding: 0 1vw;
   }
 
-  .port-img-container {
-      margin-top: 15%;
-  }
 }
