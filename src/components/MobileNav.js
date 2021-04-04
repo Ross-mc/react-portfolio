@@ -1,6 +1,4 @@
 import React, {useState} from "react";
-import { Link, useLocation } from "react-router-dom";
-import cv from "../assets/cv/Ross-McIntyre-CV.pdf";
 import MobileDropdown from "./MobileDropdown"
 
 const MobileNav = () => {
@@ -19,21 +17,19 @@ const MobileNav = () => {
 
   const [isDropdown, toggleDropdown] = useState(false);
 
-  const location = useLocation();
-
   const dropdownClickHandler = () => {
     toggleDropdown(!isDropdown)
   }
 
   return (
-    <nav class="mobile-nav">
-      <div class="dropdown">
+    <nav className="mobile-nav">
+      <div className="dropdown">
         <div>
-          <button class="btn  btn-primary" id="dropbtn" onClick={dropdownClickHandler}>
-            Navigation &nbsp;<i class="fa fa-caret-down"></i>
+          <button className="btn  btn-primary" id="dropbtn" onClick={dropdownClickHandler}>
+            Navigation &nbsp;<i className="fa fa-caret-down"></i>
           </button>
         </div>
-        {isDropdown && MobileDropdown}
+        {isDropdown && <MobileDropdown />}
       </div>
     </nav>
   );

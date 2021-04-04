@@ -5,6 +5,13 @@ const NavBar = () => {
   const location = useLocation();
 
   return (
+
+    // $(".navLink").mouseenter(function(){
+    //   //     $(".current").css("color", "whitesmoke");
+    //   // });
+    //   // $(".navLink").mouseleave(function(){
+    //   //     $(".current").css("color", "#008B8B");
+    //   // });
     <nav id="fullNav">
       <div className="nav-list justify-content">
         <div className="nav-item">
