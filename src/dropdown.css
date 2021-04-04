@@ -22,19 +22,18 @@
   border: #008b8b;
 }
 
-#close {
-  position: absolute;
-  display: none;
-  z-index: 1;
-  right: 5px;
-  color: whitesmoke;
-  background-color: #008b8b;
-  border: #008b8b;
+.close-btn{
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  background-color: rgba(35, 40, 45, 1);
+  color: #008b8b;
+  border: none;
 }
 
 .dropdown-link {
   display: none;
   z-index: 2;
-  margin-top: 20px;
+  margin-top: -5px;
   margin-right: 40px;
 }
