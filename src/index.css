@@ -33,6 +33,16 @@ body {
   color: #008b8b;
 }
 
+.currentH {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.currentH:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 .current:hover {
   color: whitesmoke;
   text-decoration: none;

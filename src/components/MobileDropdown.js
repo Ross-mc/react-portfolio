@@ -5,13 +5,6 @@ import cv from "../assets/cv/Ross-McIntyre-CV.pdf";
 const MobileDropdown = ({dropdownClickHandler}) => {
   const location = useLocation();
 
-
-  // $("#close, .current").click(function(){
-  //     console.log('Clicked')
-  //     $(".dropdown-link").slideUp(1000).animate({height: "1vh", lineHeight: "1vh"}, 1)
-  //     setTimeout(function(){$("#dropbtn").css("display", "block")}, 1000);
-  //     $("#close").css("display", "none");
-  // });
   const [styles, setStyles] = useState({
     display: "block",
     height: "1vh",
