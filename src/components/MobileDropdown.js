@@ -36,7 +36,6 @@ const MobileDropdown = ({dropdownClickHandler}) => {
   
 
   const closeDropdown = () => {
-    console.log('clicked')
     let interval = 25;
     const animate = setInterval(() => {
       if (interval <= 5) {
