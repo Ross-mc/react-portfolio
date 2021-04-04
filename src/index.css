@@ -375,3 +375,11 @@ textarea {
     padding: 0 1vw;
   }
 }
+
+@media (min-width: 1800px) {
+  .img-fluid {
+    max-width: 80% !important;
+    height: auto;
+    margin: 0 auto;
+  }
+}
