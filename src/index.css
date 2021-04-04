@@ -317,6 +317,21 @@ textarea {
     top: 30%;
   }
 
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 80px;
+  }
+
+  .container {
+    min-height: 300px;
+  }
+
+  .port-img-container {
+    min-height: 300px;
+  }
+
   .responsive-text {
     font-size: 22px;
   }
@@ -381,5 +396,8 @@ textarea {
     max-width: 80% !important;
     height: auto;
     margin: 0 auto;
+  }
+  .portfolio-section {
+    min-height: 300px;
   }
 }
