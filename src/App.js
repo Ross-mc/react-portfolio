@@ -1,8 +1,10 @@
 import './App.css';
+import './dropdown.css';
 import React from "react";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import NavBar from "./components/NavBar";
+import MobileNav from "./components/MobileNav"
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -17,7 +19,7 @@ const App = () => {
       <div className="bg-img" />
       <Router>
         <header>
-         {displayFullNav ? <NavBar /> : <h1>Mobile Nav to go here</h1>}
+         {displayFullNav ? <NavBar /> : <MobileNav />}
         </header>
         <div className ="my-container">
           <Route exact path="/" component={Home} />

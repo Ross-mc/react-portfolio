@@ -137,6 +137,7 @@ body {
   margin-top: 4vh;
   left: 50%;
   transform: translate(-50%);
+  z-index: 1;
 }
 
 .content {
@@ -145,7 +146,7 @@ body {
   color: whitesmoke;
   padding-bottom: 100px;
   margin-bottom: 1vh;
-  min-height: 65vh;
+  min-height: 80vh;
 }
 
 .responsive-text {

@@ -4,19 +4,6 @@ import cv from "../assets/cv/Ross-McIntyre-CV.pdf";
 const NavBar = () => {
   const location = useLocation();
 
-  // <nav id="fullNav">
-  //               <div class="nav-list justify-content">
-  //                   <div class="nav-item"><a href="index.html" class="current">Home</a></div>
-  //                   <div class="nav-item"><a href="#top" class="navLink">About Me</a></div>
-  //               </div>
-  //               <div class="nav-list justify-content-end">
-  //                   <div class="nav-item"><a href="my-portfolio.html" class="navLink">Portfolio</a></div>
-  //                   <div class="nav-item"><a href="mailto:rossmci90@hotmail.co.uk" class="navLink">Contact</a></div>
-  //               </div>
-  //           </nav>
-
-
-  // className={location.pathname === "/" ? "current" : "navLink"}
   return (
     <nav id="fullNav">
       <div className="nav-list justify-content">
