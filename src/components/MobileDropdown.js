@@ -26,13 +26,12 @@ const MobileDropdown = () => {
   useEffect(() => {
     let interval = 1;
     const animate = setInterval(() => {
-      console.log(interval)
-      if (interval === 25){
+      if (interval >= 25){
         clearInterval(animate)
       }
       setStyles({...styles, height: `${interval}vh`, lineHeight: `${interval}vh`})
-      interval++;
-    }, 40)
+      interval+=0.1;
+    }, 1)
   }, [])
   
 
