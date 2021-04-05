@@ -43,7 +43,7 @@ const PortfolioProjects = [
     description: `This is a website built for an imitation barbershop. The website is constructed with HTML/CSS with Bootstrap and JavaScript/jQuery. 
     I completed this project to put in to practice knowledge I had learned about jQuery and it can make websites dynamic.`,
     github: "https://github.com/Ross-mc/barbershop-website",
-    live: "https://rossmcintyre.tech/barbershop-website/barbershop.html",
+    live: "https://ross-mc.github.io/barbershop-website/",
     img: barbershopImg
   }
 ];
