@@ -14,7 +14,7 @@ const MobileDropdown = ({dropdownClickHandler}) => {
   useEffect(() => {
     let interval = 1;
     const animate = setInterval(() => {
-      if (interval >= 25) {
+      if (interval >= 26) {
         clearInterval(animate);
       }
       setStyles({
@@ -29,7 +29,7 @@ const MobileDropdown = ({dropdownClickHandler}) => {
   
 
   const closeDropdown = () => {
-    let interval = 25;
+    let interval = 26;
     const animate = setInterval(() => {
       if (interval <= 5) {
         clearInterval(animate);
@@ -48,7 +48,7 @@ const MobileDropdown = ({dropdownClickHandler}) => {
   return (
     <>
       <button className="close-btn" onClick={closeDropdown}>
-        <i className="fas fa-times"></i>
+        <i className="fas fa-times" onClick={closeDropdown}></i>
       </button>
       <Link
         to="/"
@@ -70,6 +70,7 @@ const MobileDropdown = ({dropdownClickHandler}) => {
             : "dropdown-link navLink"
         }
         style={styles}
+        onClick={closeDropdown}
       >
         About
       </Link>
@@ -81,10 +82,11 @@ const MobileDropdown = ({dropdownClickHandler}) => {
             : "dropdown-link navLink"
         }
         style={styles}
+        onClick={closeDropdown}
       >
         Portfolio
       </Link>
-      <a href={cv} className="dropdown-link navLink" style={styles}>
+      <a href={cv} className="dropdown-link navLink" style={{...styles, height: "27vh", lineHeight: "27vh"}}>
         CV
       </a>
     </>
