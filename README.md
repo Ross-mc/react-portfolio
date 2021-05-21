@@ -6,7 +6,7 @@ This is the repository for my portfolio website created using React.js
 
 ## Deployment
 
-My portfolio, deployed through Netlify, is available [here](https://ross-mcintyre-portfolio.netlify.app/).
+My portfolio is available [here](https://rossmcintyre.tech/).
 
 ![Screenshot](https://user-images.githubusercontent.com/67362834/113506479-0dae4300-953d-11eb-8371-75b67f7ab140.JPG)
 
