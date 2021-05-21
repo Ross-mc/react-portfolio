@@ -38,6 +38,8 @@ const PortfolioProject = ({ project, index }) => {
                 <a
                   href={project.github}
                   className="port-link"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Code
                 </a>
@@ -47,6 +49,8 @@ const PortfolioProject = ({ project, index }) => {
                 <a
                   href={project.live}
                   className="port-link"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Live
                 </a>
