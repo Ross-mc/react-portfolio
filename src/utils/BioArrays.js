@@ -17,7 +17,7 @@ const BioArrays = {
         </p>,
         <p class="responsive-text">
         My primary expertise is web development using Node.js/Express.js for backend development and React.js for frontend development, with MongoDB or MySQL for databases.  I also have experience with Java and Python. View my <Link to="/portfolio" className="blue-text inline-link">
-        Ross McIntyre</Link> to see the various projects I have been working on.
+        my portfolio</Link> to see the various projects I have been working on.
         </p>
     ],
     PortfolioBio: [

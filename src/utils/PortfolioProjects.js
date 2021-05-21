@@ -1,10 +1,29 @@
 import workoutWeeklyImg from "../assets/portfolioImages/workout-weekly.png";
 import pubImg from "../assets/portfolioImages/pub-quiz-builder.jpg";
-import weatherImg from "../assets/portfolioImages/optimal-day.jpg";
 import recipeImg from "../assets/portfolioImages/recipe.jpg";
-import barbershopImg from "../assets/portfolioImages/barbershop.jpg";
+import jcEducationImg from "../assets/portfolioImages/jc-education.jpg"
+import reduceWasteImg from "../assets/portfolioImages/reduce-waste.jpg"
+
 
 const PortfolioProjects = [
+  {
+    projectTitle: "JC Education",
+    description: `A freelance project for a beauty educator. The website was developed using the Next.js framework for React, and takes advantage of Next.js features
+      such as server side rendering of pages, dynamic page routing and serverless functions. User (admin only) login and authentication is handled using JSON Webtokens.
+      Confirmation emails are sent to the customer and the business using Nodemailer.`,
+    github: "https://github.com/Ross-mc/jc-education",
+    live: "https://jacki-clarke.netlify.app/",
+    img: jcEducationImg
+  },
+  {
+    projectTitle: "Reduce Waste",
+    description: `Reduce Waste is a MERN stack application to help manage food produce. It provides AI Solutions to stock management,
+    provides an easy to understand summary of your produce and recommends recipes based on products that are about to expire. Incorporates Cloudinary image
+    hosting, Microsoft Azure OCR for intelligently reading receipts/shopping lists uploaded by the user and secure User registration and authentication`,
+    github: "https://github.com/Ross-mc/reduceWaste",
+    live: "https://reduce-waste.herokuapp.com/",
+    img: reduceWasteImg
+  },
   {
     projectTitle: "Workout Weekly",
     description: `Workout Weekly is a full stack Node.js application with a MySQL database. The application is a workout and daily planner which gives the user a calendar
@@ -23,14 +42,6 @@ const PortfolioProjects = [
     img: pubImg
   },
   {
-    projectTitle: "Weather Dashboard",
-    description: `This project is a weather application built with jQuery, using the Open Weather API. The application provides a 5 day weather forecast for the chosen city.
-    A big focus of this project was designing a beautiful UI/UX and this project showcases how much I have improved in this area as a developer`,
-    github: "https://github.com/Ross-mc/weather-dashboard",
-    live: "https://ross-mc.github.io/weather-dashboard/",
-    img: weatherImg
-  },
-  {
     projectTitle: "New Dish, Who Dis!",
     description: `A web application to inspire people to try new dishes from around the world. Built with jQuery and the Spoonacular/GIPHY APIs.
     From this project I developed my knowledge and understanding of branching, pull requests and merging with Git as part of a project team.`,
@@ -38,14 +49,6 @@ const PortfolioProjects = [
     live: "https://ross-mc.github.io/recipe-finder-app/",
     img: recipeImg
   },
-  {
-    projectTitle: "Barbershop",
-    description: `This is a website built for an imitation barbershop. The website is constructed with HTML/CSS with Bootstrap and JavaScript/jQuery. 
-    I completed this project to put in to practice knowledge I had learned about jQuery and it can make websites dynamic.`,
-    github: "https://github.com/Ross-mc/barbershop-website",
-    live: "https://ross-mc.github.io/barbershop-website/",
-    img: barbershopImg
-  }
 ];
 
 export default PortfolioProjects
