@@ -4,9 +4,6 @@ const Footer = () => {
   return (
     <footer className="sticky-footer">
       <div className="socialImages">
-        <a href="https://codepen.io/ross-mc">
-          <i className="fab fa-codepen fa-2x"></i>
-        </a>
         <a href="https://github.com/Ross-mc">
           <i className="fab fa-github fa-2x"></i>
         </a>
