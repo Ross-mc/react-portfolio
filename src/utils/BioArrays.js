@@ -2,11 +2,11 @@ import {Link} from "react-router-dom"
 
 const BioArrays = {
     HomeBio: [
-        <p className="responsive-text" key="first">My name is <span className="blue-text">Ross McIntyre</span></p>,
+        <p className="responsive-text" key="first"><span className="blue-text">Ross McIntyre</span></p>,
         <p className="responsive-text"  key="second">web developer <span className="blue-text">/</span> software engineer</p>
     ],
     AboutBio: [
-        <p class="responsive-text">Hello and welcome to my website. My name is <Link to="/" className="blue-text inline-link">
+        <p class="responsive-text">My name is <Link to="/" className="blue-text inline-link">
         Ross McIntyre</Link> and I am a web developer / software engineer.</p>,
         <p class="responsive-text">
         I previously worked for many years as a Geotechnical Consultant before discovering a passion for software development and subsequently dedicated

@@ -12,7 +12,7 @@ const PortfolioProjects = [
       such as server side rendering of pages, dynamic page routing and serverless functions. User (admin only) login and authentication is handled using JSON Webtokens.
       Confirmation emails are sent to the customer and the business using Nodemailer.`,
     github: "https://github.com/Ross-mc/jc-education",
-    live: "https://jacki-clarke.netlify.app/",
+    live: "https://www.jackiclarke.com",
     img: jcEducationImg
   },
   {
